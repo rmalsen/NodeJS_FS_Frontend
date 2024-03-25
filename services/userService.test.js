@@ -1,6 +1,6 @@
 const {postRegister, postLogin} = require('./userService')
 
-jest.mock('./__mocks__/userService');
+// jest.mock('./__mocks__/userService');
 
 describe('Test Service calls backend', ()=>{
     test('Post Register should return a user', async ()=>{

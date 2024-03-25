@@ -1,7 +1,7 @@
 const postRegister = async (body) => {
 
 
-      return Promise.resolve({
+      return await Promise.resolve({
         data:{
           firstName: 'Eric',
           lastName: 'Clarke',
@@ -18,8 +18,8 @@ const postRegister = async (body) => {
 const postLogin = async (body)=>{
  
    //   console.log(result);
-
-      return Promise.resolve({
+ 
+      return await Promise.resolve({
         data:{
               firstName: 'Rik',
               lastName: 'Malsen',
