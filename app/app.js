@@ -4,6 +4,10 @@ const router = require('../routes/router')
 const app = express();
 
 
+// form middleware
+app.use(express.urlencoded({ extended: true }));
+
+
 // cors middlware
 app.use(cors())
 
